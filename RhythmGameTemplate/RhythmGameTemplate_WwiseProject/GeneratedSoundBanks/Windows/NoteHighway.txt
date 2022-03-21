@@ -6,9 +6,18 @@ Event	ID	Name			Wwise Object Path	Notes
 	3188186427	StopNoteHighwayMusic			\Default Work Unit\StopNoteHighwayMusic	
 	3304723600	StopRhythmHeckinMusic			\Default Work Unit\StopRhythmHeckinMusic	
 
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	1001267805	Modulator Envelope (Custom)				
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	57851982	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\temp_synth\Wwise Synth One	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	563557586	sfx_movement_jump20	Y:\Documents\Spring2022\MusicAndGameplay\UG213_MusicAndGameplay_Spring2022\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\sfx_movement_jump20_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_movement_jump20		12400
-	808870176	JumpingMusic1	Y:\Documents\Spring2022\MusicAndGameplay\UG213_MusicAndGameplay_Spring2022\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\JumpingMusic1_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmHeckinMusic\JumpingMusic1\JumpingMusic1		294886
-	1037792397	sfx_sounds_falling1	Y:\Documents\Spring2022\MusicAndGameplay\UG213_MusicAndGameplay_Spring2022\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\sfx_sounds_falling1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_sounds_falling1		70226
-	1040474592	Track	Y:\Documents\Spring2022\MusicAndGameplay\UG213_MusicAndGameplay_Spring2022\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\Track_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmGameTemplateMusic\RhythmGameTemplateMusic\Track		380887
+	563557586	sfx_movement_jump20	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\sfx_movement_jump20_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_movement_jump20		12400
+	808870176	JumpingMusic1	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\JumpingMusic1_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmHeckinMusic\JumpingMusic1\JumpingMusic1		294886
+	813556443	Piano	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\RhythmGame2 - 2022-03-21, 2.18 AM_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmGameTemplateMusic\Gameplay\Piano		763134
+	881191192	ExampleMusic	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\08 Two Bit Boss Battles_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmGameTemplateMusic\RhythmGameRevised\ExampleMusic		1833809
+	962178903	Midi	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\MIDI11_C273719F.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmGameTemplateMusic\Gameplay\Midi		946
+	1037792397	sfx_sounds_falling1	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\sfx_sounds_falling1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\sfx_sounds_falling1		70226
+	1040474592	Track	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\RhythmGameTemplate\RhythmGameTemplate_WwiseProject\.cache\Windows\SFX\Track_696A9007.wem		\Interactive Music Hierarchy\Default Work Unit\RhythmGameTemplateMusic\RhythmGameTemplateMusic\Track		380887
 

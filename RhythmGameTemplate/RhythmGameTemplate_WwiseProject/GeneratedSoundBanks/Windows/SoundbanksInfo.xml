@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>/Users/alessia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Spring2022/MusicAndGameplay/UG213_MusicAndGameplay_Spring2022/RhythmGameTemplate/RhythmGameTemplate_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/alessia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Spring2022/MusicAndGameplay/UG213_MusicAndGameplay_Spring2022/RhythmGameTemplate/RhythmGameTemplate_WwiseProject/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/alessia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Spring2022/MusicAndGameplay/UG213_MusicAndGameplay_Spring2022/RhythmGameTemplate/RhythmGameTemplate_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>/Users/alessia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Spring2022/MusicAndGameplay/MusicAndGameplayProjects/RhythmGameTemplate/RhythmGameTemplate_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/alessia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Spring2022/MusicAndGameplay/MusicAndGameplayProjects/RhythmGameTemplate/RhythmGameTemplate_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/alessia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Spring2022/MusicAndGameplay/MusicAndGameplayProjects/RhythmGameTemplate/RhythmGameTemplate_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/alessia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Spring2022/MusicAndGameplay/UG213_MusicAndGameplay_Spring2022/RhythmGameTemplate/RhythmGameTemplate_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/alessia/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/Spring2022/MusicAndGameplay/MusicAndGameplayProjects/RhythmGameTemplate/RhythmGameTemplate_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1268211518" Language="SFX" Hash="1934261297">
+		<SoundBank Id="1268211518" Language="SFX" Hash="2157713722">
 			<ObjectPath>\SoundBanks\Default Work Unit\NoteHighway</ObjectPath>
 			<ShortName>NoteHighway</ShortName>
 			<Path>NoteHighway.bnk</Path>
@@ -32,8 +32,20 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="377537405" Name="PlayNoteHighwayMusic" ObjectPath="\Events\Default Work Unit\PlayNoteHighwayMusic" DurationType="OneShot" DurationMin="71.648911" DurationMax="71.648911">
+				<Event Id="377537405" Name="PlayNoteHighwayMusic" ObjectPath="\Events\Default Work Unit\PlayNoteHighwayMusic" DurationType="OneShot" DurationMin="104.144073" DurationMax="104.144073">
 					<IncludedMemoryFiles>
+						<File Id="813556443" Language="SFX">
+							<ShortName>RhythmGame2 - 2022-03-21, 2.18 AM.wav</ShortName>
+							<Path>SFX/RhythmGame2 - 2022-03-21, 2.18 AM_696A9007.wem</Path>
+						</File>
+						<File Id="881191192" Language="SFX">
+							<ShortName>08 Two Bit Boss Battles.wav</ShortName>
+							<Path>SFX/08 Two Bit Boss Battles_696A9007.wem</Path>
+						</File>
+						<File Id="962178903" Language="SFX">
+							<ShortName>MIDI11.MID</ShortName>
+							<Path>SFX/MIDI11_C273719F.wem</Path>
+						</File>
 						<File Id="1040474592" Language="SFX">
 							<ShortName>Track.wav</ShortName>
 							<Path>SFX/Track_696A9007.wem</Path>
@@ -52,7 +64,7 @@
 				<Event Id="3304723600" Name="StopRhythmHeckinMusic" ObjectPath="\Events\Default Work Unit\StopRhythmHeckinMusic" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="493131819">
+		<SoundBank Id="1355168291" Language="SFX" Hash="699807663">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
