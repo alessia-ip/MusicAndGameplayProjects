@@ -1,5 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	946518217	Set_HorizonVolume			\Default Work Unit\Set_HorizonVolume	
 	1917263390	StopMusic			\Default Work Unit\StopMusic	
+	2002093562	Set_EventVolumeZero			\Default Work Unit\Set_EventVolumeZero	
+	2181618871	Play_EventHorizon			\Default Work Unit\Play_EventHorizon	
 	3415295600	StartSpatialLoop1			\Default Work Unit\StartSpatialLoop1	
 	3415295602	StartSpatialLoop3			\Default Work Unit\StartSpatialLoop3	
 	3415295603	StartSpatialLoop2			\Default Work Unit\StartSpatialLoop2	
@@ -26,5 +29,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	328500420	ProteusqueSpatialLoop3	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\ProteusqueSpatialLoop3_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\ProteusqueSpatialLoop3		51103
 	451248812	ProteusqueSpatialLoop1	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\ProteusqueSpatialLoop1_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\ProteusqueSpatialLoop1		125899
 	670101358	ProteusqueSpatialLoop2	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\ProteusqueSpatialLoop2_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\ProteusqueSpatialLoop2		59028
+	859618193	EventHorizon	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\EventHorizon_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\EventHorizon		4455004
 	916416597	ProteusqueStems Area2Melody	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\Space_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\MagentaLand\MagentaMusic\ProteusqueStems Area2Melody		403811
 

@@ -138,10 +138,57 @@
 								<MediaID ID="328500420"/>
 							</MediaIDList>
 						</AudioFileSource>
+						<AudioFileSource Name="EventHorizon" ID="{021B6612-C548-4AD7-AD4C-860C7FB1575F}">
+							<Language>SFX</Language>
+							<AudioFile>EventHorizon.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1061675514"/>
+							</MediaIDList>
+						</AudioFileSource>
 					</ChildrenList>
 					<ObjectLists/>
 					<ActiveSourceList>
 						<ActiveSource Name="ProteusqueSpatialLoop3" ID="{E8F56176-554D-4B45-8A7F-6B3F0019CA79}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="EventHorizon" ID="{0AAA2618-A794-4EF8-A6F3-BC7CB83FCF31}" ShortID="294336989">
+					<PropertyList>
+						<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-57</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ProteusqueSpatialLoops" ID="{B63B4A9D-D4B5-4C6C-898F-B783740F98BB}" WorkUnitID="{E1CE1758-1FBA-4EEF-851A-6783860C927C}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{982B6AEF-462E-44A6-B9A7-408817EB0171}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="EventHorizon" ID="{32FA2D70-2DD9-4F00-892B-4F11899D8DA9}">
+							<Language>SFX</Language>
+							<AudioFile>EventHorizon.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="859618193"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="EventHorizon" ID="{32FA2D70-2DD9-4F00-892B-4F11899D8DA9}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

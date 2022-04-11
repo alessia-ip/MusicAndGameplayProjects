@@ -8,8 +8,11 @@
 						<ObjectRef Name="StopMusic" ID="{11914D58-7060-4198-96B0-3880ED11709F}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StartSpatialLoop3" ID="{55B15E55-63F0-42C2-966F-FF27A38E4887}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StartMusic" ID="{6BE3B747-79E0-4391-8C51-864B3307BE90}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Set_HorizonVolume" ID="{77B50232-CED9-442A-A731-FCEEF5327966}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StartSpatialLoop1" ID="{B478333A-7379-45B4-8015-E6E11AFF7DD3}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Set_EventVolumeZero" ID="{F306C4EA-53B8-4639-9823-28D8D3BCAC9D}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StartSpatialLoop2" ID="{489AA2D6-A386-49DB-B24E-26316AD75E9F}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EventHorizon" ID="{B834CBC6-ED93-4B6C-81E1-F60A30434C00}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

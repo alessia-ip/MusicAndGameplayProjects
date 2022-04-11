@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9d9f41f0a70e43418f2ac9e2badcb31, type: 3}
-  m_Name: 55B15E55-63F0-42C2-966F-FF27A38E4887
+  m_Name: F306C4EA-53B8-4639-9823-28D8D3BCAC9D
   m_EditorClassIdentifier: 
-  objectName: StartSpatialLoop3
-  id: 3415295602
-  guid: 55B15E55-63F0-42C2-966F-FF27A38E4887
+  objectName: Set_EventVolumeZero
+  id: 2002093562
+  guid: F306C4EA-53B8-4639-9823-28D8D3BCAC9D

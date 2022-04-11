@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 9bc84d3ede430a45ac45bd914f449f50
     GuidInternal: 
-    m_lastTime: -8585524930034775808
+    m_lastTime: -8585519364054775808
     List:
     - name: Proteusque
       guid: 70054bebcffa414787184c27948337f5
@@ -94,8 +94,59 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: f950ac43c55d6c4ab08fcf796d6bd8ca
     GuidInternal: 
-    m_lastTime: -8585524930044775808
+    m_lastTime: -8585519342194775808
     List:
+    - name: Play_EventHorizon
+      guid: c6cb34b893ed6c4b81e1f60a30434c00
+      id: 2181618871
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f950ac43c55d6c4ab08fcf796d6bd8ca
+      - ElementName: Play_EventHorizon
+        ObjectType: 3
+        guid: c6cb34b893ed6c4b81e1f60a30434c00
+      Path: Events/Default Work Unit/Play_EventHorizon
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Set_EventVolumeZero
+      guid: eac406f3b8533946982328d8d3bcac9d
+      id: 2002093562
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f950ac43c55d6c4ab08fcf796d6bd8ca
+      - ElementName: Set_EventVolumeZero
+        ObjectType: 3
+        guid: eac406f3b8533946982328d8d3bcac9d
+      Path: Events/Default Work Unit/Set_EventVolumeZero
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_HorizonVolume
+      guid: 3202b577d9ce2a44a731fceef5327966
+      id: 946518217
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f950ac43c55d6c4ab08fcf796d6bd8ca
+      - ElementName: Set_HorizonVolume
+        ObjectType: 3
+        guid: 3202b577d9ce2a44a731fceef5327966
+      Path: Events/Default Work Unit/Set_HorizonVolume
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: StartMusic
       guid: 47b7e36be07991438c51864b3307be90
       id: 3827058668
@@ -414,7 +465,7 @@ MonoBehaviour:
         guid: 9cf261b5bf4dfc4bb17dd7b5e2ee3e08
       Path: Triggers/Default Work Unit/ProteusqueTrigger1
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0c0000000d0000000e000000120000001300000014000000
+  ExpandedWaapiItemIds: 01000000020000000300000005000000060000000c0000000d0000000e0000000f0000001000000011000000120000001300000014000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

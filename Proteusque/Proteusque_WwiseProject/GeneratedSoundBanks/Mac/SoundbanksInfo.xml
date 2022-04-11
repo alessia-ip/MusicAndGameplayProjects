@@ -16,11 +16,21 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2416386526" Language="SFX" Hash="2547887108">
+		<SoundBank Id="2416386526" Language="SFX" Hash="1536819270">
 			<ObjectPath>\SoundBanks\Default Work Unit\Proteusque</ObjectPath>
 			<ShortName>Proteusque</ShortName>
 			<Path>Proteusque.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2181618871" Name="Play_EventHorizon" ObjectPath="\Events\Default Work Unit\Play_EventHorizon" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="859618193" Language="SFX">
+							<ShortName>EventHorizon.wav</ShortName>
+							<Path>SFX/EventHorizon_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2002093562" Name="Set_EventVolumeZero" ObjectPath="\Events\Default Work Unit\Set_EventVolumeZero" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="946518217" Name="Set_HorizonVolume" ObjectPath="\Events\Default Work Unit\Set_HorizonVolume" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3827058668" Name="StartMusic" ObjectPath="\Events\Default Work Unit\StartMusic" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="133982708" Language="SFX">

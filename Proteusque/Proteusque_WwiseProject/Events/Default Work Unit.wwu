@@ -61,6 +61,49 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_EventHorizon" ID="{B834CBC6-ED93-4B6C-81E1-F60A30434C00}">
+					<ChildrenList>
+						<Action Name="" ID="{2EF98F29-7F2C-4755-92F1-B943B5AB0CE5}" ShortID="342883505">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EventHorizon" ID="{0AAA2618-A794-4EF8-A6F3-BC7CB83FCF31}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_HorizonVolume" ID="{77B50232-CED9-442A-A731-FCEEF5327966}">
+					<ChildrenList>
+						<Action Name="" ID="{221797EA-4F18-49F6-9A79-96415F5FC9A8}" ShortID="352459080">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+								<Property Name="Volume" Type="Real64" Value="-2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EventHorizon" ID="{0AAA2618-A794-4EF8-A6F3-BC7CB83FCF31}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_EventVolumeZero" ID="{F306C4EA-53B8-4639-9823-28D8D3BCAC9D}">
+					<ChildrenList>
+						<Action Name="" ID="{86EA7216-FD6B-48BA-8431-129ADA3ADDA8}" ShortID="595510246">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+								<Property Name="Volume" Type="Real64" Value="-80"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EventHorizon" ID="{0AAA2618-A794-4EF8-A6F3-BC7CB83FCF31}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
