@@ -14,13 +14,18 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_EVENTHORIZON = 2181618871U;
+        static const AkUniqueID PLAY_GLOWSTONE = 3658277440U;
+        static const AkUniqueID PLAYNOISESWEEP = 2724319661U;
         static const AkUniqueID SET_EVENTVOLUMEZERO = 2002093562U;
+        static const AkUniqueID SET_GLOWAUDIBLE = 1183638161U;
+        static const AkUniqueID SET_GLOWZERO = 856512687U;
         static const AkUniqueID SET_HORIZONVOLUME = 946518217U;
         static const AkUniqueID STARTMUSIC = 3827058668U;
         static const AkUniqueID STARTSPATIALLOOP1 = 3415295600U;
         static const AkUniqueID STARTSPATIALLOOP2 = 3415295603U;
         static const AkUniqueID STARTSPATIALLOOP3 = 3415295602U;
         static const AkUniqueID STOPMUSIC = 1917263390U;
+        static const AkUniqueID STOPNOISESWEEP = 2121141951U;
     } // namespace EVENTS
 
     namespace STATES
@@ -31,6 +36,7 @@ namespace AK
 
             namespace STATE
             {
+                static const AkUniqueID EDGE = 729511006U;
                 static const AkUniqueID GREEN = 4147287986U;
                 static const AkUniqueID MAGENTA = 3987849186U;
                 static const AkUniqueID NONE = 748895195U;

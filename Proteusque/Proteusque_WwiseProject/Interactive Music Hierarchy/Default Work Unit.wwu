@@ -4,9 +4,6 @@
 		<WorkUnit Name="Default Work Unit" ID="{3C181720-A88D-4215-BA0A-6B06F85C224B}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicSwitchContainer Name="BackgroundMusic" ID="{48A05CBE-EF2F-471B-80AB-98FFCF411F39}" ShortID="865014776">
-					<PropertyList>
-						<Property Name="Tempo" Type="Real64" Value="100"/>
-					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -167,7 +164,7 @@
 													<MusicCue Name="Exit Cue" ID="{352AABAB-2474-4BDA-8E2A-C929DBD71A51}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="16800"/>
+															<Property Name="TimeMs" Type="Real64" Value="16000"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -351,7 +348,7 @@
 													<MusicCue Name="Exit Cue" ID="{AF9EE585-2247-44BC-B693-4B8FC9785FD2}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="16800"/>
+															<Property Name="TimeMs" Type="Real64" Value="16000"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -571,7 +568,7 @@
 													<MusicCue Name="Exit Cue" ID="{AD89E3B4-0C50-400B-8685-163FDD12F7D4}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="16800"/>
+															<Property Name="TimeMs" Type="Real64" Value="16000"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -605,6 +602,134 @@
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="MagentaMusic" ID="{2A942B0F-6D51-4A83-9707-F5AE7CEE75D2}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="EdgeLand" ID="{4A62791C-990D-4C80-A91C-18E5798409A0}" ShortID="296722317">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{982B6AEF-462E-44A6-B9A7-408817EB0171}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="EdgeMusic" ID="{3D010A40-C7B5-46B2-885A-8B777327DE73}" ShortID="401922681">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="37337.2464272077"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{982B6AEF-462E-44A6-B9A7-408817EB0171}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Edge" ID="{1929FAB2-A2F7-4A3A-A658-1B555C96034F}" ShortID="1027680634">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Edge" ID="{9F5BA9A2-609F-4282-BC30-551B3DF428FE}">
+													<Language>SFX</Language>
+													<AudioFile>Edge.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="362431868"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{F04ABBB7-CF40-4A22-920C-B5EF14E5C594}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList/>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{EC29D0A3-3ABE-477B-8C55-24E6AC5ADACE}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Edge" ID="{4BE2BCAD-DA10-4AED-83C9-5D9B40D7853E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="28226.462585034"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Edge" ID="{9F5BA9A2-609F-4282-BC30-551B3DF428FE}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{B7E3E595-53CF-4D6F-B2DD-F5AEA1576B3A}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B84D4EC3-14F4-45E2-A896-94238CB4490A}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="16000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{9032EB01-361E-4CAE-8B7E-115E166B3139}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList/>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{78CA355D-F096-424E-8843-CFC3457E39F0}">
+											<ReferenceList/>
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{EF9859CE-34E4-4FDE-8749-CFFA1DCB8356}" ShortID="989941474">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{02CA7231-9059-475E-8A45-3C8E75914CD8}" ShortID="279048388">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="EdgeMusic" ID="{3D010A40-C7B5-46B2-885A-8B777327DE73}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
@@ -721,6 +846,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="PurpleLand" ID="{37335922-9301-4D4F-8348-E13ECA22DBEF}" WorkUnitID="{3C181720-A88D-4215-BA0A-6B06F85C224B}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Edge" ID="{242B9419-3913-4C99-9A1D-34EEF0072FEC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="EdgeLand" ID="{4A62791C-990D-4C80-A91C-18E5798409A0}" WorkUnitID="{3C181720-A88D-4215-BA0A-6B06F85C224B}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

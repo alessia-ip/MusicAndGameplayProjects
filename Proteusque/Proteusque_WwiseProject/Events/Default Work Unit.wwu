@@ -104,6 +104,74 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PlayNoiseSweep" ID="{85196351-527A-4160-BEED-FEE3A1961D34}">
+					<ChildrenList>
+						<Action Name="" ID="{B60D9B3F-AA80-46BC-930A-978FC7479AB7}" ShortID="285882309">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NoiseSweep" ID="{755E91A3-A21B-4B19-865B-5A8536FB9818}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopNoiseSweep" ID="{06B22B43-7738-4AF7-8F2C-AB5D826DABFC}">
+					<ChildrenList>
+						<Action Name="" ID="{2E415148-2AEF-4145-B0F3-64B1A60A3383}" ShortID="701431063">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="NoiseSweep" ID="{755E91A3-A21B-4B19-865B-5A8536FB9818}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Glowstone" ID="{D96269DA-D1F8-4CBC-9EC6-2012F40B8B74}">
+					<ChildrenList>
+						<Action Name="" ID="{23B07402-0CB7-49AC-8A1D-AAEC32293DEF}" ShortID="530201005">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Glowstone" ID="{94FFD633-A25D-4BBF-9A97-B9AD1623CF4B}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_GlowZero" ID="{5B9FBC81-F0AE-4C54-8546-577620737DD9}">
+					<ChildrenList>
+						<Action Name="" ID="{5311AD6A-9E92-4AB0-8087-A349EDA74E6A}" ShortID="293495841">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+								<Property Name="Volume" Type="Real64" Value="-95"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Glowstone" ID="{94FFD633-A25D-4BBF-9A97-B9AD1623CF4B}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Set_GlowAudible" ID="{F3B98B92-1941-4765-A0D8-F70AAC1ACBB3}">
+					<ChildrenList>
+						<Action Name="" ID="{E3A9751B-A53D-4B76-B242-17040D23D194}" ShortID="388811590">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+								<Property Name="Volume" Type="Real64" Value="-1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Glowstone" ID="{94FFD633-A25D-4BBF-9A97-B9AD1623CF4B}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

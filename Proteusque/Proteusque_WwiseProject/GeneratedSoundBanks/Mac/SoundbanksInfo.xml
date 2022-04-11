@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2416386526" Language="SFX" Hash="1536819270">
+		<SoundBank Id="2416386526" Language="SFX" Hash="1362572123">
 			<ObjectPath>\SoundBanks\Default Work Unit\Proteusque</ObjectPath>
 			<ShortName>Proteusque</ShortName>
 			<Path>Proteusque.bnk</Path>
@@ -29,7 +29,25 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3658277440" Name="Play_Glowstone" ObjectPath="\Events\Default Work Unit\Play_Glowstone" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="528887086" Language="SFX">
+							<ShortName>Glowstone.wav</ShortName>
+							<Path>SFX/Glowstone_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2724319661" Name="PlayNoiseSweep" ObjectPath="\Events\Default Work Unit\PlayNoiseSweep" DurationType="OneShot" DurationMin="16." DurationMax="16.">
+					<IncludedMemoryFiles>
+						<File Id="64355462" Language="SFX">
+							<ShortName>NoiseSweep.wav</ShortName>
+							<Path>SFX/NoiseSweep_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2002093562" Name="Set_EventVolumeZero" ObjectPath="\Events\Default Work Unit\Set_EventVolumeZero" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1183638161" Name="Set_GlowAudible" ObjectPath="\Events\Default Work Unit\Set_GlowAudible" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="856512687" Name="Set_GlowZero" ObjectPath="\Events\Default Work Unit\Set_GlowZero" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="946518217" Name="Set_HorizonVolume" ObjectPath="\Events\Default Work Unit\Set_HorizonVolume" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3827058668" Name="StartMusic" ObjectPath="\Events\Default Work Unit\StartMusic" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -40,6 +58,10 @@
 						<File Id="302341997" Language="SFX">
 							<ShortName>Ground.wav</ShortName>
 							<Path>SFX/Ground_9EDFC787.wem</Path>
+						</File>
+						<File Id="362431868" Language="SFX">
+							<ShortName>Edge.wav</ShortName>
+							<Path>SFX/Edge_9EDFC787.wem</Path>
 						</File>
 						<File Id="916416597" Language="SFX">
 							<ShortName>Space.wav</ShortName>
@@ -65,6 +87,11 @@
 						<SwitchContainer SwitchValue="{07A40000-4028-4B51-B1FE-07D67350A62E}">
 							<Media>
 								<File Id="302341997"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{242B9419-3913-4C99-9A1D-34EEF0072FEC}">
+							<Media>
+								<File Id="362431868"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -94,6 +121,7 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1917263390" Name="StopMusic" ObjectPath="\Events\Default Work Unit\StopMusic" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2121141951" Name="StopNoiseSweep" ObjectPath="\Events\Default Work Unit\StopNoiseSweep" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="2243460727" Name="PlayerHeight" ObjectPath="\Game Parameters\Default Work Unit\PlayerHeight"/>
@@ -105,6 +133,7 @@
 						<State Id="4147287986" Name="Green" ObjectPath="\States\Default Work Unit\Region\Green" GUID="{4F0CCC5F-3897-4C7B-B1F9-C016313DA5B8}"/>
 						<State Id="3987849186" Name="Magenta" ObjectPath="\States\Default Work Unit\Region\Magenta" GUID="{3F88B34E-4FAE-412A-A527-8078BC26C379}"/>
 						<State Id="3036078039" Name="Purple" ObjectPath="\States\Default Work Unit\Region\Purple" GUID="{D46F03EA-FB71-4EBA-BA95-562A1CA682F5}"/>
+						<State Id="729511006" Name="Edge" ObjectPath="\States\Default Work Unit\Region\Edge" GUID="{242B9419-3913-4C99-9A1D-34EEF0072FEC}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>

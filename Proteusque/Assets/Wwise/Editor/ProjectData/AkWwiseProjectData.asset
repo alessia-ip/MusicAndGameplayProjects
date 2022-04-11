@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 9bc84d3ede430a45ac45bd914f449f50
     GuidInternal: 
-    m_lastTime: -8585519364054775808
+    m_lastTime: -8585519104344775808
     List:
     - name: Proteusque
       guid: 70054bebcffa414787184c27948337f5
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: f950ac43c55d6c4ab08fcf796d6bd8ca
     GuidInternal: 
-    m_lastTime: -8585519342194775808
+    m_lastTime: -8585519104344775808
     List:
     - name: Play_EventHorizon
       guid: c6cb34b893ed6c4b81e1f60a30434c00
@@ -113,6 +113,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Glowstone
+      guid: da6962d9f8d1bc4c9ec62012f40b8b74
+      id: 3658277440
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f950ac43c55d6c4ab08fcf796d6bd8ca
+      - ElementName: Play_Glowstone
+        ObjectType: 3
+        guid: da6962d9f8d1bc4c9ec62012f40b8b74
+      Path: Events/Default Work Unit/Play_Glowstone
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayNoiseSweep
+      guid: 516319857a526041beedfee3a1961d34
+      id: 2724319661
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f950ac43c55d6c4ab08fcf796d6bd8ca
+      - ElementName: PlayNoiseSweep
+        ObjectType: 3
+        guid: 516319857a526041beedfee3a1961d34
+      Path: Events/Default Work Unit/PlayNoiseSweep
+      maxAttenuation: 0
+      maxDuration: 16
+      minDuration: 16
     - name: Set_EventVolumeZero
       guid: eac406f3b8533946982328d8d3bcac9d
       id: 2002093562
@@ -127,6 +161,40 @@ MonoBehaviour:
         ObjectType: 3
         guid: eac406f3b8533946982328d8d3bcac9d
       Path: Events/Default Work Unit/Set_EventVolumeZero
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_GlowAudible
+      guid: 928bb9f341196547a0d8f70aac1acbb3
+      id: 1183638161
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f950ac43c55d6c4ab08fcf796d6bd8ca
+      - ElementName: Set_GlowAudible
+        ObjectType: 3
+        guid: 928bb9f341196547a0d8f70aac1acbb3
+      Path: Events/Default Work Unit/Set_GlowAudible
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_GlowZero
+      guid: 81bc9f5baef0544c8546577620737dd9
+      id: 856512687
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f950ac43c55d6c4ab08fcf796d6bd8ca
+      - ElementName: Set_GlowZero
+        ObjectType: 3
+        guid: 81bc9f5baef0544c8546577620737dd9
+      Path: Events/Default Work Unit/Set_GlowZero
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -232,6 +300,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: StopNoiseSweep
+      guid: 432bb2063877f74a8f2cab5d826dabfc
+      id: 2121141951
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f950ac43c55d6c4ab08fcf796d6bd8ca
+      - ElementName: StopNoiseSweep
+        ObjectType: 3
+        guid: 432bb2063877f74a8f2cab5d826dabfc
+      Path: Events/Default Work Unit/StopNoiseSweep
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -272,7 +357,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: d4a235ad7fd2a84ca586f1d37653ab2b
     GuidInternal: 
-    m_lastTime: -8585524930034775808
+    m_lastTime: -8585519106974775808
     List:
     - name: Region
       guid: ad31db5c4128334bb0a1f778fa538aae
@@ -289,6 +374,22 @@ MonoBehaviour:
         guid: ad31db5c4128334bb0a1f778fa538aae
       Path: States/Default Work Unit/Region
       values:
+      - name: Edge
+        guid: 19942b241339994c9a1d34eef0072fec
+        id: 729511006
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d4a235ad7fd2a84ca586f1d37653ab2b
+        - ElementName: Region
+          ObjectType: 9
+          guid: ad31db5c4128334bb0a1f778fa538aae
+        - ElementName: Edge
+          ObjectType: 8
+          guid: 19942b241339994c9a1d34eef0072fec
       - name: Green
         guid: 5fcc0c4f97387b4cb1f9c016313da5b8
         id: 4147287986
@@ -465,7 +566,7 @@ MonoBehaviour:
         guid: 9cf261b5bf4dfc4bb17dd7b5e2ee3e08
       Path: Triggers/Default Work Unit/ProteusqueTrigger1
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000020000000300000005000000060000000c0000000d0000000e0000000f0000001000000011000000120000001300000014000000
+  ExpandedWaapiItemIds: 01000000020000000300000005000000060000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000016000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

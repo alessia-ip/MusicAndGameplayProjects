@@ -191,6 +191,60 @@
 						<ActiveSource Name="EventHorizon" ID="{32FA2D70-2DD9-4F00-892B-4F11899D8DA9}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="NoiseSweep" ID="{755E91A3-A21B-4B19-865B-5A8536FB9818}" ShortID="974111588">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{982B6AEF-462E-44A6-B9A7-408817EB0171}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="NoiseSweep" ID="{413F76C9-A23F-471B-986C-74358123E710}">
+							<Language>SFX</Language>
+							<AudioFile>NoiseSweep.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="64355462"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="NoiseSweep" ID="{413F76C9-A23F-471B-986C-74358123E710}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Glowstone" ID="{94FFD633-A25D-4BBF-9A97-B9AD1623CF4B}" ShortID="948393070">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{982B6AEF-462E-44A6-B9A7-408817EB0171}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Glowstone" ID="{00AF21D7-54BD-4437-867D-4994C12EF46C}">
+							<Language>SFX</Language>
+							<AudioFile>Glowstone.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="528887086"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Glowstone" ID="{00AF21D7-54BD-4437-867D-4994C12EF46C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
