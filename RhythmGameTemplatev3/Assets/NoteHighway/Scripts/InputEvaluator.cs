@@ -1,7 +1,7 @@
-﻿  using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using TMPro;
 
 public class RhythmInput
 {
@@ -27,6 +27,8 @@ public class InputEvaluator : MonoBehaviour
 
     public GemGenerator gemGenerator;
 
+    public TextMeshProUGUI scoreText;
+    
     //ideally we'd manage score on a seperate script
     public int gameScore;
 
@@ -152,6 +154,7 @@ public class InputEvaluator : MonoBehaviour
                 
                 gameScore += 1;
                 Debug.Log("OK!");
+                printScoreGem("OK!");
                 gem.GemScored();
                 if(gem.sustainType == FallingGem.SustainType.start)
                 {
@@ -161,6 +164,7 @@ public class InputEvaluator : MonoBehaviour
             case FallingGem.CueState.Good:
                 gameScore += 2;
                 Debug.Log("Good!");
+                printScoreGem("Good!");
                 gem.GemScored();
                 if (gem.sustainType == FallingGem.SustainType.start)
                 {
@@ -170,6 +174,7 @@ public class InputEvaluator : MonoBehaviour
             case FallingGem.CueState.Perfect:
                 gameScore += 3;
                 Debug.Log("Perfect!");
+                printScoreGem("Perfect!");
                 gem.GemScored();
                 if (gem.sustainType == FallingGem.SustainType.start)
                 {
@@ -178,13 +183,31 @@ public class InputEvaluator : MonoBehaviour
                 break;
             case FallingGem.CueState.Late:
                 Debug.Log("Missed!");
-
+                printScoreGem("Missed");
                 gem.GemLate();
                 break;
             
         }
 
 
+    }
+
+
+    void printScoreGem(string _ScoreText)
+    {
+        CancelInvoke();
+        scoreText.text = _ScoreText;
+        Invoke(nameof(clearScoreText), 2f);
+    }
+
+    void clearScoreText()
+    {
+        scoreText.text = " ";
+    }
+
+    public void LevelEnd()
+    {CancelInvoke();
+        scoreText.text = "Fin";
     }
 
     //expanded to account for sustain notes

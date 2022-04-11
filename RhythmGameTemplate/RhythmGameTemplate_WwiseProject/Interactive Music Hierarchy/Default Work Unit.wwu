@@ -1257,7 +1257,7 @@
 																		<MusicClipMidi Name="MIDI11" ID="{D12BC6E8-3154-48E5-B1A6-0D3909A8977C}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="103250"/>
-																				<Property Name="PlayAt" Type="Real64" Value="894.06779661017"/>
+																				<Property Name="PlayAt" Type="Real64" Value="769.06779661017"/>
 																			</PropertyList>
 																			<MidiSourceRef Name="MIDI11" ID="{1213E7A3-8CAE-4138-BD37-CBEF8E36C24D}"/>
 																		</MusicClipMidi>
@@ -1288,7 +1288,7 @@
 											<MusicCue Name="Exit Cue" ID="{E754E6EC-66C1-42C7-91C5-E950ABFD2F09}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="64449.1525423729"/>
+													<Property Name="TimeMs" Type="Real64" Value="66335.4826418693"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -1298,7 +1298,7 @@
 											<MusicCue Name="LevelEnded" ID="{3779D0E4-0352-4186-B01E-44A752AFA20B}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="2"/>
-													<Property Name="TimeMs" Type="Real64" Value="63940.6779661017"/>
+													<Property Name="TimeMs" Type="Real64" Value="66053.3676775376"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>

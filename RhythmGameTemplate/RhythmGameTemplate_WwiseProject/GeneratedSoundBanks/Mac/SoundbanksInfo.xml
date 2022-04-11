@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1268211518" Language="SFX" Hash="2157713722">
+		<SoundBank Id="1268211518" Language="SFX" Hash="3749495492">
 			<ObjectPath>\SoundBanks\Default Work Unit\NoteHighway</ObjectPath>
 			<ShortName>NoteHighway</ShortName>
 			<Path>NoteHighway.bnk</Path>
@@ -32,7 +32,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="377537405" Name="PlayNoteHighwayMusic" ObjectPath="\Events\Default Work Unit\PlayNoteHighwayMusic" DurationType="OneShot" DurationMin="104.144073" DurationMax="104.144073">
+				<Event Id="377537405" Name="PlayNoteHighwayMusic" ObjectPath="\Events\Default Work Unit\PlayNoteHighwayMusic" DurationType="OneShot" DurationMin="104.019073" DurationMax="104.019073">
 					<IncludedMemoryFiles>
 						<File Id="813556443" Language="SFX">
 							<ShortName>RhythmGame2 - 2022-03-21, 2.18 AM.wav</ShortName>

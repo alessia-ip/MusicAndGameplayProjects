@@ -199,8 +199,8 @@ MonoBehaviour:
         guid: 2a19300163863b46ba1534143ce01472
       Path: Events/Default Work Unit/PlayNoteHighwayMusic
       maxAttenuation: 0
-      maxDuration: 104.14407
-      minDuration: 104.14407
+      maxDuration: 104.01907
+      minDuration: 104.01907
     - name: PlayRhythmHeckinMusic
       guid: 5aaecd7df634f54ea99afa17e316a3c0
       id: 2897602606
