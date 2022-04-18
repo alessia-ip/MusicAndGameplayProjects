@@ -13,7 +13,7 @@ public class WwiseTriggerEnters : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log("player");
+            Debug.Log("player enter");
             wwiseEvent.Post(gameObject);
         }
     }

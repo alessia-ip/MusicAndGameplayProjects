@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 9bc84d3ede430a45ac45bd914f449f50
     GuidInternal: 
-    m_lastTime: -8585519104344775808
+    m_lastTime: -8585513039724775808
     List:
     - name: Proteusque
       guid: 70054bebcffa414787184c27948337f5
@@ -94,8 +94,59 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: f950ac43c55d6c4ab08fcf796d6bd8ca
     GuidInternal: 
-    m_lastTime: -8585519089504775808
+    m_lastTime: -8585513003054775808
     List:
+    - name: AboveWater
+      guid: d305513bff5dbd428962d22107b69bb4
+      id: 4026188129
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f950ac43c55d6c4ab08fcf796d6bd8ca
+      - ElementName: AboveWater
+        ObjectType: 3
+        guid: d305513bff5dbd428962d22107b69bb4
+      Path: Events/Default Work Unit/AboveWater
+      maxAttenuation: 0
+      maxDuration: 0.660125
+      minDuration: 0.660125
+    - name: MakeUkuleleAudible
+      guid: efdfc5fecd2a7344a7a70df49561745b
+      id: 2965515110
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f950ac43c55d6c4ab08fcf796d6bd8ca
+      - ElementName: MakeUkuleleAudible
+        ObjectType: 3
+        guid: efdfc5fecd2a7344a7a70df49561745b
+      Path: Events/Default Work Unit/MakeUkuleleAudible
+      maxAttenuation: 0
+      maxDuration: 19.31
+      minDuration: 19.31
+    - name: MakeUkuleleSilent
+      guid: eab9c72a72d50b44b9d6d95288646720
+      id: 4188297511
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f950ac43c55d6c4ab08fcf796d6bd8ca
+      - ElementName: MakeUkuleleSilent
+        ObjectType: 3
+        guid: eab9c72a72d50b44b9d6d95288646720
+      Path: Events/Default Work Unit/MakeUkuleleSilent
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_EventHorizon
       guid: c6cb34b893ed6c4b81e1f60a30434c00
       id: 2181618871
@@ -147,6 +198,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 16
       minDuration: 16
+    - name: PlayUkulele
+      guid: 45530bade8821f4cbb1aea31fed2b8ab
+      id: 1224631412
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f950ac43c55d6c4ab08fcf796d6bd8ca
+      - ElementName: PlayUkulele
+        ObjectType: 3
+        guid: 45530bade8821f4cbb1aea31fed2b8ab
+      Path: Events/Default Work Unit/PlayUkulele
+      maxAttenuation: 0
+      maxDuration: 19.31
+      minDuration: 19.31
     - name: Set_EventVolumeZero
       guid: eac406f3b8533946982328d8d3bcac9d
       id: 2002093562
@@ -317,6 +385,57 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: UnderWater
+      guid: 4132079f6adc6a4193b546f26075fbf4
+      id: 2213237662
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f950ac43c55d6c4ab08fcf796d6bd8ca
+      - ElementName: UnderWater
+        ObjectType: 3
+        guid: 4132079f6adc6a4193b546f26075fbf4
+      Path: Events/Default Work Unit/UnderWater
+      maxAttenuation: 0
+      maxDuration: 0.574785
+      minDuration: 0.574785
+    - name: WaterWalkOff
+      guid: 70930b6b9e355e42a119c62289133a7d
+      id: 3903991244
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f950ac43c55d6c4ab08fcf796d6bd8ca
+      - ElementName: WaterWalkOff
+        ObjectType: 3
+        guid: 70930b6b9e355e42a119c62289133a7d
+      Path: Events/Default Work Unit/WaterWalkOff
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: WaterWalkOn
+      guid: 2674057499a1d143bcb9af18390ff474
+      id: 1033555430
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f950ac43c55d6c4ab08fcf796d6bd8ca
+      - ElementName: WaterWalkOn
+        ObjectType: 3
+        guid: 2674057499a1d143bcb9af18390ff474
+      Path: Events/Default Work Unit/WaterWalkOn
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -329,7 +448,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: 61898f9d9e3eed4f96e57f9765e4ba2e
     GuidInternal: 
-    m_lastTime: -8585524930044775808
+    m_lastTime: -8585513095504775808
     List:
     - name: PlayerHeight
       guid: 1ffa9e0a012671408064673431e84428
@@ -357,7 +476,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: d4a235ad7fd2a84ca586f1d37653ab2b
     GuidInternal: 
-    m_lastTime: -8585519106974775808
+    m_lastTime: -8585513403434775808
     List:
     - name: Region
       guid: ad31db5c4128334bb0a1f778fa538aae
@@ -454,6 +573,38 @@ MonoBehaviour:
         - ElementName: Purple
           ObjectType: 8
           guid: ea036fd471fbba4eba95562a1ca682f5
+      - name: Quiet
+        guid: 84054bf521d93540b2250c84d0bcb8da
+        id: 1565680351
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d4a235ad7fd2a84ca586f1d37653ab2b
+        - ElementName: Region
+          ObjectType: 9
+          guid: ad31db5c4128334bb0a1f778fa538aae
+        - ElementName: Quiet
+          ObjectType: 8
+          guid: 84054bf521d93540b2250c84d0bcb8da
+      - name: Twinkling
+        guid: 780c835f3dc1ba44b7f2633222c7768b
+        id: 2185568370
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d4a235ad7fd2a84ca586f1d37653ab2b
+        - ElementName: Region
+          ObjectType: 9
+          guid: ad31db5c4128334bb0a1f778fa538aae
+        - ElementName: Twinkling
+          ObjectType: 8
+          guid: 780c835f3dc1ba44b7f2633222c7768b
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -566,7 +717,7 @@ MonoBehaviour:
         guid: 9cf261b5bf4dfc4bb17dd7b5e2ee3e08
       Path: Triggers/Default Work Unit/ProteusqueTrigger1
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000020000000300000005000000060000000c0000000d0000000e0000000f00000010000000110000001200000013000000140000001500000016000000
+  ExpandedWaapiItemIds: 01000000020000000300000005000000060000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001b0000001c0000001d000000210000002200000023000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -245,6 +245,108 @@
 						<ActiveSource Name="Glowstone" ID="{00AF21D7-54BD-4437-867D-4994C12EF46C}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="WaterOne" ID="{BC9F35A8-B54B-4743-8A35-8C356E14645A}" ShortID="363187371">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{982B6AEF-462E-44A6-B9A7-408817EB0171}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="WaterOne" ID="{92DF97DE-18B1-428F-B18F-1738064859D6}">
+							<Language>SFX</Language>
+							<AudioFile>WaterOne.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="649775606"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="WaterOne" ID="{92DF97DE-18B1-428F-B18F-1738064859D6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="WaterTwo" ID="{F29C963D-D1D7-4ED8-AA4C-318DAC8D425D}" ShortID="912461237">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{982B6AEF-462E-44A6-B9A7-408817EB0171}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="WaterTwo" ID="{B874C511-0561-46BA-9CBA-4F3D9E8B5876}">
+							<Language>SFX</Language>
+							<AudioFile>WaterTwo.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="464315106"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="WaterTwo" ID="{B874C511-0561-46BA-9CBA-4F3D9E8B5876}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="WaterWalk" ID="{CC4E8456-8F83-4D82-BC7D-DDD3896D18B1}" ShortID="864732245">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{982B6AEF-462E-44A6-B9A7-408817EB0171}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="WaterWalk_01" ID="{BD0D3A91-5F69-4114-B8ED-78A6BD0B6490}">
+							<Language>SFX</Language>
+							<AudioFile>WaterWalk_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="249399982"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="WaterWalk_01" ID="{BD0D3A91-5F69-4114-B8ED-78A6BD0B6490}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="UkuleleDude" ID="{83654E2D-6E74-4AA8-9786-18264088CE70}" ShortID="907220741">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{982B6AEF-462E-44A6-B9A7-408817EB0171}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{35439BD4-9B04-4555-926C-62366168BEFF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="UkuleleDude" ID="{79F5854B-4329-4EEA-96FE-51394220FE3A}">
+							<Language>SFX</Language>
+							<AudioFile>UkuleleDude.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="643872617"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="UkuleleDude" ID="{79F5854B-4329-4EEA-96FE-51394220FE3A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

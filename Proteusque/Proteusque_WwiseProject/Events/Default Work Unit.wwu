@@ -12,6 +12,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{08F3B88B-078F-43FB-BB42-2B952C97DF00}" ShortID="766917294">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Green" ID="{4F0CCC5F-3897-4C7B-B1F9-C016313DA5B8}" WorkUnitID="{AD35A2D4-D27F-4CA8-A586-F1D37653AB2B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="StopMusic" ID="{11914D58-7060-4198-96B0-3880ED11709F}">
@@ -167,6 +177,144 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Glowstone" ID="{94FFD633-A25D-4BBF-9A97-B9AD1623CF4B}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UnderWater" ID="{9F073241-DC6A-416A-93B5-46F26075FBF4}">
+					<ChildrenList>
+						<Action Name="" ID="{A868E541-398E-4F78-8C08-3FC72535A085}" ShortID="516792044">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="26"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.01"/>
+								<Property Name="Lowpass" Type="int16" Value="70"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GreenLand" ID="{290BD8F1-E74F-4798-BF35-2F521ACFE1AB}" WorkUnitID="{3C181720-A88D-4215-BA0A-6B06F85C224B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A4E0BE99-3D68-4F5A-BB3F-4523F9B4DFE9}" ShortID="852789928">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterOne" ID="{BC9F35A8-B54B-4743-8A35-8C356E14645A}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AboveWater" ID="{3B5105D3-5DFF-42BD-8962-D22107B69BB4}">
+					<ChildrenList>
+						<Action Name="" ID="{EC312C08-DCCB-4CA0-B94C-301143AFD801}" ShortID="228419036">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterTwo" ID="{F29C963D-D1D7-4ED8-AA4C-318DAC8D425D}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DEA5D590-B986-4B49-B24C-5CAF56B70469}" ShortID="851856733">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="26"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GreenLand" ID="{290BD8F1-E74F-4798-BF35-2F521ACFE1AB}" WorkUnitID="{3C181720-A88D-4215-BA0A-6B06F85C224B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="WaterWalkOn" ID="{74057426-A199-43D1-BCB9-AF18390FF474}">
+					<ChildrenList>
+						<Action Name="" ID="{F6C58A78-517F-4AA5-919F-9479259F1397}" ShortID="139061739">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterWalk" ID="{CC4E8456-8F83-4D82-BC7D-DDD3896D18B1}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="WaterWalkOff" ID="{6B0B9370-359E-425E-A119-C62289133A7D}">
+					<ChildrenList>
+						<Action Name="" ID="{4C2F4F26-B126-48C2-8D9E-9E23125FA92E}" ShortID="684429723">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WaterWalk" ID="{CC4E8456-8F83-4D82-BC7D-DDD3896D18B1}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayUkulele" ID="{AD0B5345-82E8-4C1F-BB1A-EA31FED2B8AB}">
+					<ChildrenList>
+						<Action Name="" ID="{741EBCA8-8E6D-4F34-A208-217292F03E4F}" ShortID="1047651795">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UkuleleDude" ID="{83654E2D-6E74-4AA8-9786-18264088CE70}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{460A0D16-D646-40DB-A35D-51AB1E0884AA}" ShortID="991037311">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="Volume" Type="Real64" Value="-80"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UkuleleDude" ID="{83654E2D-6E74-4AA8-9786-18264088CE70}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MakeUkuleleAudible" ID="{FEC5DFEF-2ACD-4473-A7A7-0DF49561745B}">
+					<ChildrenList>
+						<Action Name="" ID="{1EDDF3E8-11F7-4E31-8F98-55B1879F8B7F}" ShortID="1051075353">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="Volume" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UkuleleDude" ID="{83654E2D-6E74-4AA8-9786-18264088CE70}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{49390B90-E84A-427C-9C75-CFC8C63BE1B2}" ShortID="501387042">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UkuleleDude" ID="{83654E2D-6E74-4AA8-9786-18264088CE70}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="MakeUkuleleSilent" ID="{2AC7B9EA-D572-440B-B9D6-D95288646720}">
+					<ChildrenList>
+						<Action Name="" ID="{7824DFE7-4D32-4F92-8598-7606F11C78D8}" ShortID="816387753">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="Volume" Type="Real64" Value="-80"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UkuleleDude" ID="{83654E2D-6E74-4AA8-9786-18264088CE70}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{23DCFA7F-215D-4B54-96F1-8367CF966311}" ShortID="938951935">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UkuleleDude" ID="{83654E2D-6E74-4AA8-9786-18264088CE70}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

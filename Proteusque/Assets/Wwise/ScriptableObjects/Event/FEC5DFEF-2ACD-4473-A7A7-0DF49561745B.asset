@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9d9f41f0a70e43418f2ac9e2badcb31, type: 3}
-  m_Name: 06B22B43-7738-4AF7-8F2C-AB5D826DABFC
+  m_Name: FEC5DFEF-2ACD-4473-A7A7-0DF49561745B
   m_EditorClassIdentifier: 
-  objectName: StopNoiseSweep
-  id: 2121141951
-  guid: 06B22B43-7738-4AF7-8F2C-AB5D826DABFC
+  objectName: MakeUkuleleAudible
+  id: 2965515110
+  guid: FEC5DFEF-2ACD-4473-A7A7-0DF49561745B

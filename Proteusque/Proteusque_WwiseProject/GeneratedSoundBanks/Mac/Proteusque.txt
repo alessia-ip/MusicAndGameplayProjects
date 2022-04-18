@@ -1,17 +1,24 @@
 Event	ID	Name			Wwise Object Path	Notes
 	856512687	Set_GlowZero			\Default Work Unit\Set_GlowZero	
 	946518217	Set_HorizonVolume			\Default Work Unit\Set_HorizonVolume	
+	1033555430	WaterWalkOn			\Default Work Unit\WaterWalkOn	
 	1183638161	Set_GlowAudible			\Default Work Unit\Set_GlowAudible	
+	1224631412	PlayUkulele			\Default Work Unit\PlayUkulele	
 	1917263390	StopMusic			\Default Work Unit\StopMusic	
 	2002093562	Set_EventVolumeZero			\Default Work Unit\Set_EventVolumeZero	
 	2121141951	StopNoiseSweep			\Default Work Unit\StopNoiseSweep	
 	2181618871	Play_EventHorizon			\Default Work Unit\Play_EventHorizon	
+	2213237662	UnderWater			\Default Work Unit\UnderWater	
 	2724319661	PlayNoiseSweep			\Default Work Unit\PlayNoiseSweep	
+	2965515110	MakeUkuleleAudible			\Default Work Unit\MakeUkuleleAudible	
 	3415295600	StartSpatialLoop1			\Default Work Unit\StartSpatialLoop1	
 	3415295602	StartSpatialLoop3			\Default Work Unit\StartSpatialLoop3	
 	3415295603	StartSpatialLoop2			\Default Work Unit\StartSpatialLoop2	
 	3658277440	Play_Glowstone			\Default Work Unit\Play_Glowstone	
 	3827058668	StartMusic			\Default Work Unit\StartMusic	
+	3903991244	WaterWalkOff			\Default Work Unit\WaterWalkOff	
+	4026188129	AboveWater			\Default Work Unit\AboveWater	
+	4188297511	MakeUkuleleSilent			\Default Work Unit\MakeUkuleleSilent	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1374134669	Region			\Default Work Unit\Region	
@@ -19,6 +26,8 @@ State Group	ID	Name			Wwise Object Path	Notes
 State	ID	Name	State Group			Notes
 	729511006	Edge	Region			
 	748895195	None	Region			
+	1565680351	Quiet	Region			
+	2185568370	Twinkling	Region			
 	3036078039	Purple	Region			
 	3987849186	Magenta	Region			
 	4147287986	Green	Region			
@@ -32,12 +41,18 @@ Trigger	ID	Name			Wwise Object Path	Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	64355462	NoiseSweep	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\NoiseSweep_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\NoiseSweep		2822544
 	133982708	ProteusqueStems Area1Drums	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\Water_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\GreenLand\GreenMusic\ProteusqueStems Area1Drums		361239
+	249399982	WaterWalk	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\WaterWalk_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\WaterWalk		1935424
 	302341997	ProteusqueStems Area3-1	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\Ground_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\PurpleLand\PurpleMusic\ProteusqueStems Area3-1		399002
 	328500420	ProteusqueSpatialLoop3	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\ProteusqueSpatialLoop3_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\ProteusqueSpatialLoop3		51103
 	362431868	Edge	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\Edge_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\EdgeLand\EdgeMusic\Edge		431383
 	451248812	ProteusqueSpatialLoop1	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\ProteusqueSpatialLoop1_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\ProteusqueSpatialLoop1		125899
+	464315106	WaterTwo	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\WaterTwo_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WaterTwo		21188
 	528887086	Glowstone	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\Glowstone_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Glowstone		3668572
+	601777754	Quiet	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\Quiet_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\QuietLand\Quiet\Quiet		352909
+	643872617	UkuleleDude	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\UkuleleDude_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UkuleleDude		3406428
+	649775606	WaterOne	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\WaterOne_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\WaterOne		101456
 	670101358	ProteusqueSpatialLoop2	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\ProteusqueSpatialLoop2_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\ProteusqueSpatialLoop2		59028
 	859618193	EventHorizon	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\EventHorizon_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\EventHorizon		4455004
 	916416597	ProteusqueStems Area2Melody	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\Space_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\MagentaLand\MagentaMusic\ProteusqueStems Area2Melody		403811
+	1011781193	Twinkling	Y:\Documents\Spring2022\MusicAndGameplay\MusicAndGameplayProjects\Proteusque\Proteusque_WwiseProject\.cache\Mac\SFX\Twinkling_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\BackgroundMusic\TwinklingLand\Twinkling\Twinkling		216677
 

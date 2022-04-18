@@ -9,15 +9,22 @@
 						<ObjectRef Name="StopMusic" ID="{11914D58-7060-4198-96B0-3880ED11709F}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StartSpatialLoop3" ID="{55B15E55-63F0-42C2-966F-FF27A38E4887}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StartMusic" ID="{6BE3B747-79E0-4391-8C51-864B3307BE90}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MakeUkuleleSilent" ID="{2AC7B9EA-D572-440B-B9D6-D95288646720}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_HorizonVolume" ID="{77B50232-CED9-442A-A731-FCEEF5327966}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MakeUkuleleAudible" ID="{FEC5DFEF-2ACD-4473-A7A7-0DF49561745B}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StartSpatialLoop1" ID="{B478333A-7379-45B4-8015-E6E11AFF7DD3}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_EventVolumeZero" ID="{F306C4EA-53B8-4639-9823-28D8D3BCAC9D}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="WaterOne" ID="{BC9F35A8-B54B-4743-8A35-8C356E14645A}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_GlowAudible" ID="{F3B98B92-1941-4765-A0D8-F70AAC1ACBB3}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StartSpatialLoop2" ID="{489AA2D6-A386-49DB-B24E-26316AD75E9F}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UkuleleDude" ID="{83654E2D-6E74-4AA8-9786-18264088CE70}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopNoiseSweep" ID="{06B22B43-7738-4AF7-8F2C-AB5D826DABFC}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_EventHorizon" ID="{B834CBC6-ED93-4B6C-81E1-F60A30434C00}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayUkulele" ID="{AD0B5345-82E8-4C1F-BB1A-EA31FED2B8AB}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Set_GlowZero" ID="{5B9FBC81-F0AE-4C54-8546-577620737DD9}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Glowstone" ID="{D96269DA-D1F8-4CBC-9EC6-2012F40B8B74}" WorkUnitID="{43AC50F9-5DC5-4A6C-B08F-CF796D6BD8CA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="WaterWalk" ID="{CC4E8456-8F83-4D82-BC7D-DDD3896D18B1}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="WaterTwo" ID="{F29C963D-D1D7-4ED8-AA4C-318DAC8D425D}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
