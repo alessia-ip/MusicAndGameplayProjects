@@ -27,6 +27,11 @@
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="48000"/>
 										<Property Name="Tempo" Type="Real64" Value="100"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -216,6 +221,11 @@
 								<MusicSegment Name="PurpleMusic" ID="{E2C63DA6-0AB2-4FBA-A736-D3E290FC655F}" ShortID="407460339">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="49781.178032012"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -400,6 +410,11 @@
 								<MusicSegment Name="MagentaMusic" ID="{2A942B0F-6D51-4A83-9707-F5AE7CEE75D2}" ShortID="473589684">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="48000"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -620,6 +635,11 @@
 								<MusicSegment Name="EdgeMusic" ID="{3D010A40-C7B5-46B2-885A-8B777327DE73}" ShortID="401922681">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="37337.2464272077"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>15</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
