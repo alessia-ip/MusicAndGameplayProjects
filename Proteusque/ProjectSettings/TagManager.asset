@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CinemachineTarget
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: BrightStars
+    uniqueID: 1254279589
+    locked: 0
+  - name: DarkStars
+    uniqueID: 38728095
+    locked: 0
+  - name: space
+    uniqueID: 3511286575
     locked: 0

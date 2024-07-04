@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 9bc84d3ede430a45ac45bd914f449f50
     GuidInternal: 
-    m_lastTime: -8585513039724775808
+    m_lastTime: -8585509513334775808
     List:
     - name: Proteusque
       guid: 70054bebcffa414787184c27948337f5
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: f950ac43c55d6c4ab08fcf796d6bd8ca
     GuidInternal: 
-    m_lastTime: -8585513003054775808
+    m_lastTime: -8585509542354775808
     List:
     - name: AboveWater
       guid: d305513bff5dbd428962d22107b69bb4
@@ -128,8 +128,8 @@ MonoBehaviour:
         guid: efdfc5fecd2a7344a7a70df49561745b
       Path: Events/Default Work Unit/MakeUkuleleAudible
       maxAttenuation: 0
-      maxDuration: 19.31
-      minDuration: 19.31
+      maxDuration: 0
+      minDuration: 0
     - name: MakeUkuleleSilent
       guid: eab9c72a72d50b44b9d6d95288646720
       id: 4188297511
@@ -213,8 +213,8 @@ MonoBehaviour:
         guid: 45530bade8821f4cbb1aea31fed2b8ab
       Path: Events/Default Work Unit/PlayUkulele
       maxAttenuation: 0
-      maxDuration: 19.31
-      minDuration: 19.31
+      maxDuration: -1
+      minDuration: -1
     - name: Set_EventVolumeZero
       guid: eac406f3b8533946982328d8d3bcac9d
       id: 2002093562
@@ -283,6 +283,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: StartFootsteps
+      guid: a0aa8fe36cb99748bb6fcac512d5872c
+      id: 3963983328
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f950ac43c55d6c4ab08fcf796d6bd8ca
+      - ElementName: StartFootsteps
+        ObjectType: 3
+        guid: a0aa8fe36cb99748bb6fcac512d5872c
+      Path: Events/Default Work Unit/StartFootsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: StartMusic
       guid: 47b7e36be07991438c51864b3307be90
       id: 3827058668
@@ -351,6 +368,23 @@ MonoBehaviour:
       maxAttenuation: 20
       maxDuration: -1
       minDuration: -1
+    - name: StopFootsteps
+      guid: 4cf15d58d4280e46b92ad9a2c2ce8591
+      id: 177027278
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f950ac43c55d6c4ab08fcf796d6bd8ca
+      - ElementName: StopFootsteps
+        ObjectType: 3
+        guid: 4cf15d58d4280e46b92ad9a2c2ce8591
+      Path: Events/Default Work Unit/StopFootsteps
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: StopMusic
       guid: 584d91116070984196b03880ed11709f
       id: 1917263390
@@ -476,7 +510,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: d4a235ad7fd2a84ca586f1d37653ab2b
     GuidInternal: 
-    m_lastTime: -8585513403434775808
+    m_lastTime: -8585512857954775808
     List:
     - name: Region
       guid: ad31db5c4128334bb0a1f778fa538aae
@@ -509,6 +543,22 @@ MonoBehaviour:
         - ElementName: Edge
           ObjectType: 8
           guid: 19942b241339994c9a1d34eef0072fec
+      - name: GazingRegion
+        guid: b0ece066edd093449562b60cd4cf4954
+        id: 3393842431
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d4a235ad7fd2a84ca586f1d37653ab2b
+        - ElementName: Region
+          ObjectType: 9
+          guid: ad31db5c4128334bb0a1f778fa538aae
+        - ElementName: GazingRegion
+          ObjectType: 8
+          guid: b0ece066edd093449562b60cd4cf4954
       - name: Green
         guid: 5fcc0c4f97387b4cb1f9c016313da5b8
         id: 4147287986
@@ -717,7 +767,7 @@ MonoBehaviour:
         guid: 9cf261b5bf4dfc4bb17dd7b5e2ee3e08
       Path: Triggers/Default Work Unit/ProteusqueTrigger1
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000020000000300000005000000060000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001b0000001c0000001d000000210000002200000023000000
+  ExpandedWaapiItemIds: 05000000060000001d0000001e0000001f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -2,7 +2,10 @@ State Group	ID	Name			Wwise Object Path	Notes
 	1374134669	Region			\Default Work Unit\Region	
 
 State	ID	Name	State Group			Notes
+	729511006	Edge	Region			
 	748895195	None	Region			
+	1565680351	Quiet	Region			
+	2185568370	Twinkling	Region			
 	3036078039	Purple	Region			
 	3987849186	Magenta	Region			
 	4147287986	Green	Region			

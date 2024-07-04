@@ -24,6 +24,7 @@ public class WaterSwap : MonoBehaviour
 
         } else if (HasTriggered && transform.position.y < pHeight)
         {
+            
             HasTriggered = false;
             goUnderWater.Post(gameObject);
             Debug.Log("Under");

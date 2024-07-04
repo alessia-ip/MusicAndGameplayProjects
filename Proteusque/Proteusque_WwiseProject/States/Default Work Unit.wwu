@@ -12,6 +12,7 @@
 						<State Name="Edge" ID="{242B9419-3913-4C99-9A1D-34EEF0072FEC}"/>
 						<State Name="Quiet" ID="{F54B0584-D921-4035-B225-0C84D0BCB8DA}"/>
 						<State Name="Twinkling" ID="{5F830C78-C13D-44BA-B7F2-633222C7768B}"/>
+						<State Name="GazingRegion" ID="{66E0ECB0-D0ED-4493-9562-B60CD4CF4954}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

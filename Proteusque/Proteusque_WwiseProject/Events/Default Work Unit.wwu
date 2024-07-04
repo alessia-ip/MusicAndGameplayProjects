@@ -286,13 +286,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{49390B90-E84A-427C-9C75-CFC8C63BE1B2}" ShortID="501387042">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="UkuleleDude" ID="{83654E2D-6E74-4AA8-9786-18264088CE70}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="MakeUkuleleSilent" ID="{2AC7B9EA-D572-440B-B9D6-D95288646720}">
@@ -315,6 +308,31 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="UkuleleDude" ID="{83654E2D-6E74-4AA8-9786-18264088CE70}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StartFootsteps" ID="{E38FAAA0-B96C-4897-BB6F-CAC512D5872C}">
+					<ChildrenList>
+						<Action Name="" ID="{DC5FB15F-A037-4602-8011-68E11DF41C15}" ShortID="556613260">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{8BE418FF-164E-4555-994D-F96924A271A6}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopFootsteps" ID="{585DF14C-28D4-460E-B92A-D9A2C2CE8591}">
+					<ChildrenList>
+						<Action Name="" ID="{49DB52EB-0EF8-45F7-B07C-54AAFD343230}" ShortID="866978602">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{8BE418FF-164E-4555-994D-F96924A271A6}" WorkUnitID="{16B47A31-444F-4276-80A3-4BE5C936562C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

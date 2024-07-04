@@ -8,7 +8,7 @@
   <CreateWwiseListener>true</CreateWwiseListener>
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
-  <WwiseInstallationPathMac />
+  <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise 2021.1.6.7774/Wwise.app</WwiseInstallationPathMac>
   <WwiseInstallationPathWindows>C:\Wwise 2021.1.6.7774</WwiseInstallationPathWindows>
   <WwiseProjectPath>../Proteusque_WwiseProject/Proteusque_WwiseProject.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>

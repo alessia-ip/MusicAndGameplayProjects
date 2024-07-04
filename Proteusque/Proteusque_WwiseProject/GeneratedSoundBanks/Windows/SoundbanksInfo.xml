@@ -11,25 +11,18 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1258148488">
+		<SoundBank Id="1355168291" Language="SFX" Hash="812784703">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="2416386526" Language="SFX" Hash="3416873959">
+		<SoundBank Id="2416386526" Language="SFX" Hash="2516819003">
 			<ObjectPath>\SoundBanks\Default Work Unit\Proteusque</ObjectPath>
 			<ShortName>Proteusque</ShortName>
 			<Path>Proteusque.bnk</Path>
 			<IncludedEvents>
 				<Event Id="4026188129" Name="AboveWater" ObjectPath="\Events\Default Work Unit\AboveWater" DurationType="OneShot" DurationMin="0.660125" DurationMax="0.660125"/>
-				<Event Id="2965515110" Name="MakeUkuleleAudible" ObjectPath="\Events\Default Work Unit\MakeUkuleleAudible" DurationType="OneShot" DurationMin="19.309999" DurationMax="19.309999">
-					<IncludedMemoryFiles>
-						<File Id="643872617" Language="SFX">
-							<ShortName>UkuleleDude.wav</ShortName>
-							<Path>SFX/UkuleleDude_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
+				<Event Id="2965515110" Name="MakeUkuleleAudible" ObjectPath="\Events\Default Work Unit\MakeUkuleleAudible" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="4188297511" Name="MakeUkuleleSilent" ObjectPath="\Events\Default Work Unit\MakeUkuleleSilent" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2181618871" Name="Play_EventHorizon" ObjectPath="\Events\Default Work Unit\Play_EventHorizon" DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -55,11 +48,11 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1224631412" Name="PlayUkulele" ObjectPath="\Events\Default Work Unit\PlayUkulele" DurationType="OneShot" DurationMin="19.309999" DurationMax="19.309999">
+				<Event Id="1224631412" Name="PlayUkulele" ObjectPath="\Events\Default Work Unit\PlayUkulele" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="643872617" Language="SFX">
 							<ShortName>UkuleleDude.wav</ShortName>
-							<Path>SFX/UkuleleDude_10C4C929.wem</Path>
+							<Path>SFX/UkuleleDude_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -67,8 +60,13 @@
 				<Event Id="1183638161" Name="Set_GlowAudible" ObjectPath="\Events\Default Work Unit\Set_GlowAudible" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="856512687" Name="Set_GlowZero" ObjectPath="\Events\Default Work Unit\Set_GlowZero" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="946518217" Name="Set_HorizonVolume" ObjectPath="\Events\Default Work Unit\Set_HorizonVolume" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3963983328" Name="StartFootsteps" ObjectPath="\Events\Default Work Unit\StartFootsteps" DurationType="Infinite"/>
 				<Event Id="3827058668" Name="StartMusic" ObjectPath="\Events\Default Work Unit\StartMusic" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="71334193" Language="SFX">
+							<ShortName>Flute.wav</ShortName>
+							<Path>SFX/Flute_9EDFC787.wem</Path>
+						</File>
 						<File Id="133982708" Language="SFX">
 							<ShortName>Water.wav</ShortName>
 							<Path>SFX/Water_9EDFC787.wem</Path>
@@ -85,6 +83,10 @@
 							<ShortName>Quiet.wav</ShortName>
 							<Path>SFX/Quiet_9EDFC787.wem</Path>
 						</File>
+						<File Id="738513549" Language="SFX">
+							<ShortName>Melodica.wav</ShortName>
+							<Path>SFX/Melodica_9EDFC787.wem</Path>
+						</File>
 						<File Id="916416597" Language="SFX">
 							<ShortName>Space.wav</ShortName>
 							<Path>SFX/Space_9EDFC787.wem</Path>
@@ -93,8 +95,17 @@
 							<ShortName>Twinkling.wav</ShortName>
 							<Path>SFX/Twinkling_9EDFC787.wem</Path>
 						</File>
+						<File Id="1027042138" Language="SFX">
+							<ShortName>Trumpet.wav</ShortName>
+							<Path>SFX/Trumpet_9EDFC787.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
+						<SwitchContainer SwitchValue="{5CDB31AD-2841-4B33-B0A1-F778FA538AAE}">
+							<Media>
+								<File Id="133982708"/>
+							</Media>
+						</SwitchContainer>
 						<SwitchContainer SwitchValue="{4F0CCC5F-3897-4C7B-B1F9-C016313DA5B8}">
 							<Media>
 								<File Id="133982708"/>
@@ -112,7 +123,7 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{07A40000-4028-4B51-B1FE-07D67350A62E}">
 							<Media>
-								<File Id="302341997"/>
+								<File Id="133982708"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{242B9419-3913-4C99-9A1D-34EEF0072FEC}">
@@ -128,6 +139,13 @@
 						<SwitchContainer SwitchValue="{F54B0584-D921-4035-B225-0C84D0BCB8DA}">
 							<Media>
 								<File Id="601777754"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{66E0ECB0-D0ED-4493-9562-B60CD4CF4954}">
+							<Media>
+								<File Id="71334193"/>
+								<File Id="738513549"/>
+								<File Id="1027042138"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -159,6 +177,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="177027278" Name="StopFootsteps" ObjectPath="\Events\Default Work Unit\StopFootsteps" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1917263390" Name="StopMusic" ObjectPath="\Events\Default Work Unit\StopMusic" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2121141951" Name="StopNoiseSweep" ObjectPath="\Events\Default Work Unit\StopNoiseSweep" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2213237662" Name="UnderWater" ObjectPath="\Events\Default Work Unit\UnderWater" DurationType="OneShot" DurationMin="0.574785" DurationMax="0.574785"/>
@@ -170,13 +189,17 @@
 					<ShortName>WaterWalk_01.wav</ShortName>
 					<Path>SFX/WaterWalk_01_D79FB2B7.wem</Path>
 				</File>
+				<File Id="262766859" Language="SFX">
+					<ShortName>388289__pan14__foley-footsteps-desert-boots-sand (1).wav</ShortName>
+					<Path>SFX/388289__pan14__foley-footsteps-desert-boots-sand (1)_D79FB2B7.wem</Path>
+				</File>
 				<File Id="464315106" Language="SFX">
 					<ShortName>WaterTwo.wav</ShortName>
 					<Path>SFX/WaterTwo_10C4C929.wem</Path>
 				</File>
 				<File Id="643872617" Language="SFX">
 					<ShortName>UkuleleDude.wav</ShortName>
-					<Path>SFX/UkuleleDude_10C4C929.wem</Path>
+					<Path>SFX/UkuleleDude_D79FB2B7.wem</Path>
 				</File>
 				<File Id="649775606" Language="SFX">
 					<ShortName>WaterOne.wav</ShortName>
@@ -196,15 +219,13 @@
 						<State Id="729511006" Name="Edge" ObjectPath="\States\Default Work Unit\Region\Edge" GUID="{242B9419-3913-4C99-9A1D-34EEF0072FEC}"/>
 						<State Id="1565680351" Name="Quiet" ObjectPath="\States\Default Work Unit\Region\Quiet" GUID="{F54B0584-D921-4035-B225-0C84D0BCB8DA}"/>
 						<State Id="2185568370" Name="Twinkling" ObjectPath="\States\Default Work Unit\Region\Twinkling" GUID="{5F830C78-C13D-44BA-B7F2-633222C7768B}"/>
+						<State Id="3393842431" Name="GazingRegion" ObjectPath="\States\Default Work Unit\Region\GazingRegion" GUID="{66E0ECB0-D0ED-4493-9562-B60CD4CF4954}"/>
 					</States>
 				</StateGroup>
 				<StateGroup Id="4147287986" Name="Green" ObjectPath="\States\Default Work Unit\Region\Green" GUID="{4F0CCC5F-3897-4C7B-B1F9-C016313DA5B8}">
 					<States/>
 				</StateGroup>
 			</StateGroups>
-			<Triggers>
-				<Trigger Id="4193390955" Name="ProteusqueTrigger1" ObjectPath="\Triggers\Default Work Unit\ProteusqueTrigger1"/>
-			</Triggers>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

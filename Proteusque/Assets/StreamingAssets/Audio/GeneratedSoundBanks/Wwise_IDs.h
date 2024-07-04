@@ -24,10 +24,12 @@ namespace AK
         static const AkUniqueID SET_GLOWAUDIBLE = 1183638161U;
         static const AkUniqueID SET_GLOWZERO = 856512687U;
         static const AkUniqueID SET_HORIZONVOLUME = 946518217U;
+        static const AkUniqueID STARTFOOTSTEPS = 3963983328U;
         static const AkUniqueID STARTMUSIC = 3827058668U;
         static const AkUniqueID STARTSPATIALLOOP1 = 3415295600U;
         static const AkUniqueID STARTSPATIALLOOP2 = 3415295603U;
         static const AkUniqueID STARTSPATIALLOOP3 = 3415295602U;
+        static const AkUniqueID STOPFOOTSTEPS = 177027278U;
         static const AkUniqueID STOPMUSIC = 1917263390U;
         static const AkUniqueID STOPNOISESWEEP = 2121141951U;
         static const AkUniqueID UNDERWATER = 2213237662U;
@@ -44,6 +46,7 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID EDGE = 729511006U;
+                static const AkUniqueID GAZINGREGION = 3393842431U;
                 static const AkUniqueID GREEN = 4147287986U;
                 static const AkUniqueID MAGENTA = 3987849186U;
                 static const AkUniqueID NONE = 748895195U;
